@@ -9,7 +9,7 @@ const viewspath=path.join(__dirname+'/views')
  */
 
 const mongoose=require("mongoose")
-mongoose.connect("mongodb+srv://abhisheksharma32344:123456@cluster0.hhrgngr.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://gauravgurjar8791:hSpZ5PMMbByiMEmC@cluster0.apsq7fq.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
